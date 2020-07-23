@@ -10,6 +10,6 @@ setup(name='timesynth',
       license='MIT',
       include_package_data=True,
       packages=find_packages(),
-      install_requires=['numpy', 'scipy', 'sympy', 'symengine', 'jitcdde', 'jitcxde_common'],
+      install_requires=['numpy', 'scipy', 'sympy', 'symengine==0.6.1', 'jitcdde', 'jitcxde_common'],
       tests_require=['pytest'],
       setup_requires=["pytest-runner"])
